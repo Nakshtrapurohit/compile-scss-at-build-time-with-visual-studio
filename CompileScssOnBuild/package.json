@@ -1,0 +1,17 @@
+{
+  "name": "compile-scss-on-build",
+  "version": "1.0.0",
+  "description": "This package does not do anything useful",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path Scss --output-style compressed Scss/site.scss --output wwwroot/css"
+  },
+  "author": "",
+  "license": "ISC"
+}
