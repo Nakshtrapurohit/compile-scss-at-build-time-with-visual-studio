@@ -9,9 +9,8 @@
     "node-sass": "^4.14.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path Scss --output-style compressed Scss/site.scss --output wwwroot/css"
+    "build-css": "node-sass --include-path src/scss --output-style compressed src/scss/site.scss --output wwwroot/css"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jacob Dixon",
+  "license": "MIT"
 }
